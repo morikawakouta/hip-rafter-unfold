@@ -376,7 +376,7 @@ def draw_hip_true_section(ax, Rhip, a, b, n1, n2):
     ax.set_ylabel('Z (mm)')
 
     y0,y1 = -a/2.0, +a/2.0
-    z0,z1 = -b, 0.0
+    z0,z1 = -2b, 0.0
 
     rect = np.array([[y0,z0],[y1,z0],[y1,z1],[y0,z1]], dtype=float)
 
