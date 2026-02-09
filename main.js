@@ -8,6 +8,7 @@ matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
 Zhat = np.array([0.0, 0.0, 1.0], dtype=float)
+console.log("main.js loaded v20260209-1500");
 
 def normalize(v):
     v = np.asarray(v, dtype=float)
